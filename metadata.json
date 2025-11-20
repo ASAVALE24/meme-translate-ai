@@ -1,0 +1,5 @@
+{
+  "name": "MemeTranslate AI",
+  "description": "A smart translator specialized in internet slang, memes, and pop culture. Converts Chinese to 10 English variations and foreign languages to Chinese, complete with visual illustrations and context.",
+  "requestFramePermissions": []
+}
