@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { TranslationResult } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI(import.meta.env.VITE_API_KEY);
 
 // Define the schema for the translation output
 const translationSchema: Schema = {
