@@ -12,6 +12,8 @@ export default function App() {
   const [result, setResult] = useState<TranslationResultType | null>(null);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+
   
   // Notebook State
   const [notebookOpen, setNotebookOpen] = useState(false);
